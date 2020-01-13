@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>jQuery UI ProgressBar functionality</title>
+      <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+      <style>
+        .progress_container{
+          height:25px;
+          border-radius: 3px;
+          overflow:hidden;
+          background:grey;
+          width: 460px;
+          }
+      .progress_bar{
+          height:25px;
+          width: 0px;
+          -moz-border-radius:3px;
+          -webkit-border-radius:3px;
+          border-radius:3px;
+          background:black;
+          }
+       .progress_container {
+           margin-bottom: 30px;
+      }
+      </style>
+      <script>
+        $("document").ready(function (){
+            $('.progress_bar').each(function() {
+                var percent = $(this).attr('title');
+               $(this).animate({width: percent},1000);
+            });
+        });
+      </script>
+   </head>
+   <body>
+      <div class="progress_container"><div class="progress_bar tip" title="58%"></div></div>
+   </body>
+</html>

@@ -1,0 +1,287 @@
+<html>
+<head>
+    <title>Synthetica</title>
+    <link rel="stylesheet" href="synthetica-style.css">
+   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+        <script type="text/javascript">
+            $(".stat-number-cup").counterUp({delay:10, time:2000});
+            $(".stat-number-book").counterUp({delay:10, time:2000});
+            $(".stat-number-pen").counterUp({delay:10, time:2000});
+         </script>
+
+<style>
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
+        
+       
+        .slideshow-container {
+          top: 10%;
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
+        
+        
+        
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+       
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+       
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+        
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+        button{
+          padding: 20px;
+          background-color:#7AE2DE ;
+          
+        }
+        h2{
+          font-family: Raleway,Verdana,Arial,sans-serif;
+          font-size: 45px;
+          font-weight: 400;
+          padding-bottom: 10%;
+        }
+        hr{
+          margin-left: 15%;
+          width: 70%;
+          margin-bottom: 42px;
+          margin-top: 42px;
+        }
+       
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+       
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 13px;
+          margin: 0 2px;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+          margin-bottom: 10px;
+          border: 2px solid white;
+         background: transparent;
+        }
+        .three-dots{
+          text-align:center;
+          left: 98%;
+          display: flex;
+          position: absolute;
+          bottom: 28%;
+          flex-direction: column;
+          align-items: flex-end;
+          justify-content: flex-end;
+         
+        }
+
+        
+        .active, .dot:hover {
+          background-color: #717171;
+         
+        }
+        
+       
+        .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 1.5s;
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+       
+        @media only screen and (max-width: 300px) {
+          .prev, .next,.text {font-size: 11px}
+        }
+        </style>
+
+         
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="synthetica-logo">
+                <img src="logo.png" alt="synthetica-logo">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="#the-collective">The Collective</a>
+                    </li>
+                    <li>
+                        <a href="#">The Crew</a>
+                    </li>
+                    <li>
+                        <a href="#">Articles</a>
+                    </li>
+                    <li>
+                        <a href="#">Freebies</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Subscribe</a>
+                    </li>
+                    <li>
+                        <a href="#" class="search-icon"><img src="magnify1.png"/></a>
+                    </li>
+                </ul>
+            </div> 
+            
+           
+        </header>
+
+        <div class="slidershow-container">
+            <div class="myslides fade">
+                    <img src="hero-bg-01.jpg" style="width:100%">
+                    <div class="text">
+                      <h2>
+                        Introducing, Synthetica. A blissful HTML5/CSS3 Template, free forever.
+                      </h2>
+                      <button type="button">Learn More</button>
+                      <hr>
+                      <p>
+                        Create your landing page in minutes with Synthetica's Sketch style guide.
+                      </p>
+                    </div>
+            </div>
+             <div class="myslides fade">
+                        <img src="hero-bg-02.jpg" style="width:100%">
+                        <div class="text">
+                          <h2>
+                            Get a head start, with the Synthetica Sketch file.
+                          </h2>
+                          <button type="button">Download Sketch File</button>
+                          <hr>
+                          <p>
+                            Create your landing page in minutes with Synthetica's Sketch style guide.
+                          </p>
+                        </div>
+             </div>
+             <div class="myslides fade">
+                        <img src="hero-bg-03.jpg" style="width:100%">
+                        <div class="text">
+                          <h2>
+                            Download Synthetica today, it's free forever.
+                          </h2>
+                          <button type="button">Download Template</button>
+                          <hr>
+                          <p>
+                            Create your landing page in minutes with Synthetica's Sketch style guide.
+                          </p>
+                        </div>
+             </div>
+    
+         </div>
+            <div  class="three-dots">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+             <span class="dot" onclick="currentSlide(2)"></span> 
+             <span class="dot" onclick="currentSlide(3)"></span>
+
+         </div>
+                        
+        
+        
+
+               
+         </div>
+         
+    </div>
+           
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+    <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+  
+</body>
+</html>

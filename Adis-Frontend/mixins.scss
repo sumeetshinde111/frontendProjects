@@ -1,0 +1,65 @@
+
+	@mixin header{
+		//  background-image: url("headerbackground.jpg");
+		background-image: url(https://push-content.springernature.io/pcf_sb_3_1510215833435951059/assets/images/grdnt_grey_f8f8f8_e5e5e5_l.gif);
+		border-top: 7px solid #cccccc;
+		position: relative;
+		height: 113px;
+    }
+
+    @mixin h2{
+        
+            font-family: Georgia,"New Century Schoolbook","Nimbus Roman No9 L",serif;
+            font-weight: normal;
+    
+    }
+    
+    @mixin h3{
+		font:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	letter-spacing: .02em;
+	line-height: 1.2;
+	// font-size: 1.7rem;
+	color: #0176c3;
+	cursor: pointer;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 0px;
+    }
+
+
+
+	@mixin p {
+		font:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+		color: #333;
+		line-height: 1.5;
+		margin: 0px 0px 25px 0px;
+
+		
+    }
+    
+    @mixin footer{
+        
+            background-image: linear-gradient(to top, #f4f4f4, #dcdcdc);
+            margin: 0;
+            background-color:#e0e0e0;
+            height: auto;
+            border-left: 2px solid #dcdcdc;
+            border-right: 2px solid #dcdcdc;
+            margin-left: 20px;
+            margin-right: 20px;
+        
+    }
+
+    @mixin footer-links{
+        color: #666;
+        height: 180px;
+        padding: 15px 10px 15px 20px;
+        // margin-bottom: 40px;
+        position: relative;
+        width: 100%;
+        background: url(https://push-content.springernature.io/pcf_sb_3_1510215833435951059/assets/images/springer-sprite.png) 1200px -115px no-repeat;
+         
+        
+    }

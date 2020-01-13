@@ -1,0 +1,42 @@
+<html>
+    <head>
+        
+        <meta name="viewport" content="width-device-width,initial-scale=1">
+        <link rel="stylesheet" href="test2.css">
+    </head>
+
+    <body>
+      <div class="search-field">
+            <div class="search-filter-wrapper">
+              <select id="search-filter-dropdown" class="search-filter select-dropdown selectBox" style="display: none;">
+                <option selected="selected" value="drug-name">
+                  by Drug Name
+                </option>
+                <option value="indication">
+                  by Indication
+                </option>
+                <option value="moa">
+                  by Mechanism
+                </option>
+                <option value="drug-class">
+                  by Drug Class
+                </option>
+                <option value="adverse-event">
+                  by Adverse Event
+                </option>
+                <option value="all">
+                  All Text
+                </option>
+              </select><a class="selectBox search-filter select-dropdown selectBox-dropdown" title="" tabindex="0" style="display: inline-block;"><span class="selectBox-label">
+                  by Drug Name
+                </span><span class="selectBox-arrow"></span></a>
+            </div>
+            <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input id="searchTerm" class="text ui-autocomplete-input" type="text" name="query.get" value="" autocomplete="off">
+            <input id="query" type="hidden" name="query" value="{&quot;baseQuery&quot;:&quot;&quot;,&quot;facets&quot;:{},&quot;sortBy&quot;:{}}">
+            <input id="load_default_tab" type="hidden" name="loadDefaultTab" value="true">
+            <input id="search" class="search-submit" type="submit">
+            <img class="loading js-hidden" src="https://push-content.springernature.io/pcf_sb_4_1510729276329136730/assets/images/loading_search.gif" alt="">
+            <a class="search-field__cancel-search" id="global-search-cancel" style="display: none;"></a>
+          <ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul></div>
+    </body>
+</html>

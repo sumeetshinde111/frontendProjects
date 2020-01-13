@@ -1,0 +1,16 @@
+.formdata{
+    border: 1px solid black;
+    display: inline-block;
+    height: 300px;
+    width: 25%;
+}
+input[id="inputbox"]{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.formdata{
+    text-align: center;
+    display: inline-block;
+}

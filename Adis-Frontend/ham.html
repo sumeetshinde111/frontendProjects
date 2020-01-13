@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <style>
+            .menuItems{
+                display: none;
+                background-color: #333;
+            }
+        </style>
+    </head>
+
+    <body>
+        <button id="menu">Menu</button>
+        <div class="menuItems">
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+
+
+        <script>
+            document.getElementById("menu").addEventListener("click",showMenuItems);
+
+            function showMenuItems(){
+                var x=document.getElementsByClassName("menuItems")[0];
+                if(x.style.display==="none")
+                x.style.display="block";
+                else
+                x.style.display="none";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+@mixin	header
+		{
+			
+		
+			// background-image: url("headerbackground.jpg");
+			// background-image: url(https://push-content.springernature.io/pcf_sb_3_1510215833435951059/assets/images/grdnt_grey_f8f8f8_e5e5e5_l.gif);
+			// border-top: 7px solid #cccccc;
+			// position: relative;
+			// height: 113px;
+        }

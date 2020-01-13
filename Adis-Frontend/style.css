@@ -1,0 +1,616 @@
+body {
+  background-image: url("adisbackground.jpg");
+  background-repeat: repeat;
+  margin: auto 0px; }
+  body .main-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 2px solid #dcdcdc;
+    border-right: 2px solid #dcdcdc; }
+    body .main-container header {
+      background-image: url(https://push-content.springernature.io/pcf_sb_3_1510215833435951059/assets/images/grdnt_grey_f8f8f8_e5e5e5_l.gif);
+      border-top: 7px solid #cccccc;
+      position: relative;
+      height: 113px; }
+      body .main-container header .hamburger {
+        display: block; }
+        body .main-container header .hamburger button[id='menu'] {
+          float: right;
+          margin-right: 20px;
+          margin-top: 21px;
+          background: url(https://push-content.springernature.io/pcf_sb_3_1510215833435951059/assets/images/springer-sprite.png) 0 -1095px no-repeat;
+          width: 5.3%;
+          height: 35px; }
+        body .main-container header .hamburger .menuItems {
+          height: 100%;
+          background-image: linear-gradient(to top, #4F5056, #3D3E42);
+          color: #FFFFFF;
+          display: none;
+          width: 100%; }
+          body .main-container header .hamburger .menuItems ul {
+            text-decoration: none;
+            padding: 0px; }
+            body .main-container header .hamburger .menuItems ul li {
+              list-style: none;
+              padding: 10px 0px;
+              display: block;
+              width: 100%;
+              border-bottom: 1px solid #333;
+              border-top: 1px solid #4c4d51; }
+              body .main-container header .hamburger .menuItems ul li .ham-signin {
+                background-color: #CCCCCC; }
+              body .main-container header .hamburger .menuItems ul li a {
+                font: 14px "Helvetica Neue",Helvetica,Arial,sans-serif;
+                padding: 0px 10px; }
+      body .main-container header .header-right-panel-menu {
+        position: absolute;
+        right: 20px; }
+      body .main-container header #header-signin-button {
+        padding-bottom: 9px;
+        color: #666;
+        background-color: #46474D;
+        background-image: linear-gradient(to top, #4F5056, #3D3E42);
+        transition: padding 0.1s ease-in-out;
+        background: #cccccc;
+        min-height: 25px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        box-shadow: none;
+        border: none;
+        height: auto;
+        position: absolute;
+        right: 155px;
+        top: 0px;
+        width: 130px; }
+      body .main-container header #header-signin-button:hover {
+        color: #201F1F; }
+      body .main-container header #header-signin-button::before {
+        content: "\00BB\0020"; }
+      body .main-container header .adis-logo {
+        display: inline-block; }
+        body .main-container header .adis-logo img {
+          cursor: pointer;
+          position: relative;
+          width: 170px;
+          height: 48px;
+          margin-left: 30px;
+          margin-top: 10px; }
+      body .main-container header .hide-figure {
+        margin: 0px; }
+      body .main-container header .springer-right-logo {
+        background-size: auto 26px;
+        border-left: none;
+        display: block;
+        position: absolute;
+        right: -7px;
+        top: 20px;
+        height: 42px;
+        width: 130px;
+        margin-right: 20px; }
+      body .main-container header .nav1 {
+        border-top: 1px solid #EAEAEB;
+        border-bottom: 1px solid #EAEAEB;
+        text-align: right;
+        height: 70px;
+        line-height: 70px; }
+      body .main-container header .menu {
+        margin: 0 1px 0 0;
+        text-align: left;
+        border-bottom: 1.5px solid #dcdcdc; }
+      body .main-container header .menu a {
+        text-decoration: none;
+        color: grey;
+        margin: 0 10px;
+        line-height: 70px; }
+      body .main-container header label {
+        margin: 0 40px 0 0;
+        font-size: 26px;
+        line-height: 70px;
+        display: none;
+        float: right; }
+      body .main-container header #toggle {
+        display: none; }
+      body .main-container header nav {
+        display: block;
+        height: 37px;
+        border-bottom: 1.5px solid #dcdcdc; }
+        body .main-container header nav ul {
+          font: 14px "Helvetica Neue",Helvetica,Arial,sans-serif;
+          list-style: none;
+          text-decoration: none;
+          border-top: 1px solid #dcdcdc;
+          cursor: pointer; }
+          body .main-container header nav ul li {
+            margin-top: 4px; }
+          body .main-container header nav ul .home {
+            font-weight: bold;
+            padding-right: 16px; }
+        body .main-container header nav a {
+          color: #555;
+          text-shadow: 1px 1px 0 #fff; }
+        body .main-container header nav li a {
+          float: left;
+          margin: 5px; }
+        body .main-container header nav li a:hover {
+          color: #0176c3; }
+    body .main-container .all-text-content {
+      background-color: #FFFFFF;
+      padding: 0px 146.406px;
+      border-bottom: 2px solid #dcdcdc; }
+      body .main-container .all-text-content .heading-text {
+        padding: 66px 0px 30px 0px;
+        font: 11px "Helvetica Neue",Helvetica,Arial,sans-serif;
+        box-sizing: border-box; }
+        body .main-container .all-text-content .heading-text .heading-text-heading > h3 {
+          font-weight: 200;
+          display: block;
+          line-height: 1.4;
+          margin: 0;
+          font-size: 24px;
+          font-family: Georgia,"New Century Schoolbook","Nimbus Roman No9 L",serif;
+          text-align: center; }
+      body .main-container .all-text-content .big-search {
+        margin: 54px 0px;
+        margin-bottom: 0px; }
+        body .main-container .all-text-content .big-search input[name="query.get"] {
+          margin: 0;
+          line-height: normal;
+          color: #666;
+          font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+          outline: none;
+          vertical-align: bottom;
+          border-radius: 2px;
+          font-size: 1.6rem;
+          font-weight: 200;
+          letter-spacing: .02em;
+          padding: 4px 9px 3px;
+          margin-bottom: 8px;
+          margin-left: -1px;
+          width: 100%;
+          box-sizing: border-box;
+          box-shadow: none;
+          background-color: transparent;
+          border: 0;
+          position: static;
+          top: auto;
+          height: 34px;
+          padding-right: 9px; }
+      body .main-container .all-text-content .ll {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 50px; }
+      body .main-container .all-text-content .search-submit {
+        margin: 0;
+        line-height: normal;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        direction: ltr;
+        display: block;
+        overflow: hidden;
+        text-align: left;
+        text-indent: -9999em;
+        text-transform: capitalize;
+        -webkit-appearance: button;
+        cursor: pointer;
+        outline: none;
+        vertical-align: bottom;
+        background: #0176c3 url(https://push-content.springernature.io/pcf_sb_3_1510215833435951059/assets/images/springer-sprite.png) 0 -1748px no-repeat;
+        border: 1px solid #0176c3;
+        border-radius: 2px;
+        color: #fff;
+        font-size: 1.6rem;
+        height: 36px;
+        padding: 0;
+        width: 52px;
+        position: absolute;
+        right: -1px;
+        top: -1px;
+        z-index: 5; }
+      body .main-container .all-text-content .search-field-dropdown {
+        text-transform: none;
+        color: #666;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        background: #e5e5e5 url(https://push-content.springernature.io/pcf_sb_3_1510215833435951059/assets/images/grdnt_grey_f8f8f8_e5e5e5.gif) repeat-x;
+        background-image: linear-gradient(to top, #f8f8f8, #e5e5e5);
+        font-size: 1.3rem;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        padding-left: 10px;
+        padding-right: 30px;
+        border-radius: 0;
+        text-decoration: none;
+        text-align: left;
+        outline: none;
+        cursor: pointer;
+        text-shadow: 1px 1px 1px #fff;
+        -webkit-appearance: none;
+        height: 34px;
+        line-height: 34px;
+        border: none;
+        border-left: 1px solid #bcbcbc;
+        border-right: 1px solid #bcbcbc;
+        overflow: auto;
+        position: absolute;
+        left: -1px;
+        top: 0;
+        width: 150px;
+        font-size: 13px; }
+      body .main-container .all-text-content .select-box-arrow::before {
+        content: "\f0d1"; }
+      body .main-container .all-text-content .search-field {
+        left: -60px;
+        font: 10px "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 1.3rem;
+        color: #333;
+        background-color: #fff;
+        border: 1px solid #bcbcbc;
+        border-radius: 2px;
+        box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.11);
+        padding: 0;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        padding-left: 150px;
+        height: 36px;
+        margin-left: 60px;
+        padding-right: 90px; }
+        body .main-container .all-text-content .search-field form #dropdown-list {
+          text-transform: none;
+          color: #666;
+          font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+          background: #e5e5e5 url(https://push-content.springernature.io/pcf_sb_3_1510215833435951059/assets/images/grdnt_grey_f8f8f8_e5e5e5.gif) repeat-x;
+          background-image: linear-gradient(to top, #f8f8f8, #e5e5e5);
+          font-size: 1.3rem;
+          background-repeat: no-repeat;
+          background-position: 0 0;
+          padding-left: 10px;
+          padding-right: 30px;
+          border-radius: 0;
+          text-decoration: none;
+          text-align: left;
+          outline: none;
+          cursor: pointer;
+          text-shadow: 1px 1px 1px #fff;
+          -webkit-appearance: none;
+          height: 34px;
+          line-height: 34px;
+          border: none;
+          border-left: 1px solid #bcbcbc;
+          border-right: 1px solid #bcbcbc;
+          overflow: auto;
+          position: absolute;
+          left: -1px;
+          top: 0;
+          width: 150px; }
+        body .main-container .all-text-content .search-field form input[name="search"] {
+          width: 639px;
+          height: 25px;
+          margin: 0px 0px 8px -1px;
+          padding: 4px 9px 3px; }
+        body .main-container .all-text-content .search-field form button[type="submit"] {
+          float: left;
+          padding: 10px;
+          background: #2196F3;
+          color: white;
+          font-size: 17px;
+          border: 1px solid grey;
+          border-left: none;
+          cursor: pointer;
+          position: absolute;
+          width: 52px;
+          height: 36px;
+          background: #0176c3 url(https://push-content.springernature.io/pcf_sb_3_1510215833435951059/assets/images/springer-sprite.png) 0 -1748px no-repeat; }
+      body .main-container .all-text-content .search-links {
+        font: 12px "Helvetica Neue",Helvetica,Arial,sans-serif;
+        display: block;
+        list-style: none;
+        text-decoration: none;
+        color: #0176c3;
+        cursor: pointer;
+        margin-top: 10px; }
+        body .main-container .all-text-content .search-links a:hover {
+          text-decoration: underline; }
+        body .main-container .all-text-content .search-links li {
+          float: right;
+          margin: 5px; }
+      body .main-container .all-text-content .parent {
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-around; }
+        body .main-container .all-text-content .parent .popup {
+          font: 10px "Helvetica Neue",Helvetica,Arial,sans-serif;
+          font-size: 1.3rem;
+          color: #333;
+          border: 1px solid #dcdcdc;
+          position: absolute;
+          width: 100%;
+          height: 302px;
+          top: 0px;
+          box-sizing: border-box;
+          background: #fff;
+          padding: 30px;
+          z-index: 10; }
+        body .main-container .all-text-content .parent h2 {
+          font-family: Georgia,"New Century Schoolbook","Nimbus Roman No9 L",serif;
+          font-weight: normal; }
+        body .main-container .all-text-content .parent h3 {
+          font: "Helvetica Neue",Helvetica,Arial,sans-serif;
+          font-weight: normal;
+          letter-spacing: .02em;
+          line-height: 1.2;
+          color: #0176c3;
+          cursor: pointer;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          margin: 0px; }
+        body .main-container .all-text-content .parent target .popup {
+          display: block; }
+        body .main-container .all-text-content .parent p {
+          font: "Helvetica Neue",Helvetica,Arial,sans-serif;
+          color: #333;
+          line-height: 1.5;
+          margin: 0px 0px 25px 0px; }
+        body .main-container .all-text-content .parent .child1 {
+          width: 100%;
+          margin: 5px 10px 10px 0px;
+          padding: 10px;
+          box-sizing: border-box;
+          border: 1px solid #dcdcdc; }
+        body .main-container .all-text-content .parent .child2 {
+          width: 100%;
+          margin: 5px 0px 10px 0px;
+          padding: 10px;
+          box-sizing: border-box;
+          border: 1px solid #dcdcdc;
+          overflow: hidden; }
+          body .main-container .all-text-content .parent .child2 .label-input {
+            margin-bottom: 20px; }
+          body .main-container .all-text-content .parent .child2 p {
+            font: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            color: #333;
+            line-height: 1.5;
+            margin: 0px 0px 25px 0px; }
+          body .main-container .all-text-content .parent .child2 input[type="text"] {
+            border-top: 1px solid black;
+            width: 73%;
+            padding: 0px 20px;
+            margin-bottom: 6px;
+            height: 20px; }
+          body .main-container .all-text-content .parent .child2 textarea {
+            width: 80%;
+            height: 62px; }
+          body .main-container .all-text-content .parent .child2 input[type="submit"] {
+            margin: 0 20px;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            border-radius: 2px;
+            font-size: 18px;
+            line-height: 30px;
+            padding: 0px 10px;
+            cursor: pointer;
+            background: #0176c3 url(https://push-content.springernature.io/pcf_sb_3_1510215833435951059/assets/images/grdnt_blue_38a0e5_0277c4.gif) repeat-x;
+            background-image: linear-gradient(to top, #38a0e5, #0176c3);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+            width: 30%;
+            margin-top: 5px;
+            height: 30px;
+            border: none;
+            color: #fff;
+            background-color: #02548a;
+            display: block; }
+            body .main-container .all-text-content .parent .child2 input[type="submit"] input[type="submit"]:hover {
+              background-image: linear-gradient(red, orange, yellow, green, blue); }
+      body .main-container .all-text-content .twitter-div {
+        border: 1px solid #dcdcdc;
+        box-sizing: border-box;
+        height: 500px;
+        overflow: auto;
+        margin-bottom: 20px;
+        font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.3rem;
+        width: 49%; }
+        body .main-container .all-text-content .twitter-div p.timeline-tweet-text .SandboxRoot.env-bp-970 .timeline-Tweet-text {
+          font-size: 22px;
+          line-height: 50px;
+          font-weight: 300; }
+      body .main-container .all-text-content .videos-div {
+        width: 48%;
+        border: 1px solid #dcdcdc;
+        padding: 10px;
+        margin-bottom: 20px; }
+        body .main-container .all-text-content .videos-div h2 {
+          font-family: Georgia,"New Century Schoolbook","Nimbus Roman No9 L",serif;
+          font-weight: normal; }
+        body .main-container .all-text-content .videos-div .vidz {
+          display: flex;
+          flex-wrap: wrap;
+          overflow: hidden; }
+          body .main-container .all-text-content .videos-div .vidz .video1 {
+            display: inline-block;
+            margin: 10px; }
+            body .main-container .all-text-content .videos-div .vidz .video1 .iframe-para {
+              text-align: left;
+              line-height: 1.2;
+              color: #000;
+              margin: 10px 0px 0px; }
+  body footer {
+    background-image: linear-gradient(to top, #f4f4f4, #dcdcdc);
+    margin: 0;
+    background-color: #e0e0e0;
+    height: auto;
+    border-left: 2px solid #dcdcdc;
+    border-right: 2px solid #dcdcdc;
+    margin-left: 20px;
+    margin-right: 20px; }
+    body footer .curated-records {
+      font: 10px "Helvetica Neue",Helvetica,Arial,sans-serif;
+      color: #666;
+      font-size: 1.1rem;
+      border-top: 1px solid #ffffff;
+      border-bottom: 1px solid #ffffff;
+      zoom: 1;
+      transition: all 0.1s ease-in-out;
+      min-height: 20px;
+      padding: 6px 32px; }
+    body footer a:hover {
+      text-decoration: underline; }
+    body footer .legal-button {
+      display: none;
+      visibility: hidden;
+      font: 18px "Helvetica Neue",Helvetica,Arial,sans-serif;
+      color: #666;
+      border-radius: 2px;
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+      transition: right 0.25s ease-in-out;
+      border: 1px solid #dcdcdc;
+      cursor: pointer;
+      height: 46px;
+      opacity: 1;
+      padding: 0 15px;
+      white-space: nowrap;
+      vertical-align: middle;
+      line-height: 2.4;
+      background-color: #e3e1e1; }
+      body footer .legal-button .legal-para-div {
+        display: block;
+        width: 100%; }
+        body footer .legal-button .legal-para-div .legal-para {
+          line-height: 24px;
+          font-size: 15px; }
+    body footer .footer-links {
+      color: #666;
+      height: 180px;
+      padding: 15px 10px 15px 20px;
+      position: relative;
+      width: 100%;
+      background: url(https://push-content.springernature.io/pcf_sb_3_1510215833435951059/assets/images/springer-sprite.png) 1200px -115px no-repeat; }
+      body footer .footer-links .about-our-content {
+        width: 298px;
+        box-shadow: 1px 0 0 0 rgba(255, 255, 255, 0.7);
+        border-right: 1px solid rgba(197, 196, 196, 0.5);
+        display: inline-block;
+        margin: 5px 10px;
+        box-sizing: border-box; }
+      body footer .footer-links .other-sites {
+        box-sizing: border-box;
+        width: 298px;
+        box-shadow: 1px 0 0 0 rgba(255, 255, 255, 0.7);
+        border-right: 1px solid rgba(197, 196, 196, 0.5);
+        display: inline-block;
+        margin: 5px 10px; }
+      body footer .footer-links .help-contact {
+        box-sizing: border-box;
+        width: 298px;
+        box-shadow: 1px 0 0 0 rgba(255, 255, 255, 0.7);
+        border-right: 1px solid rgba(197, 196, 196, 0.5);
+        display: inline-block;
+        margin: 5px 10px; }
+      body footer .footer-links .legal-content {
+        box-sizing: border-box;
+        width: 298px;
+        box-shadow: 1px 0 0 0 rgba(255, 255, 255, 0.7);
+        border-right: 1px solid rgba(197, 196, 196, 0.5);
+        display: inline-block;
+        margin: 5px 10px; }
+      body footer .footer-links h2 {
+        font-size: 15px;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: bold;
+        margin: 0%; }
+      body footer .footer-links ul {
+        margin: 2px 0px;
+        padding: 5px 0px;
+        padding: 0px;
+        padding-top: 4px; }
+      body footer .footer-links li {
+        list-style: none;
+        padding: 2px 0px; }
+      body footer .footer-links ul li a {
+        font: 11px "Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #666; }
+    body footer .adis-international p {
+      font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #666;
+      padding: 15px 10px 15px 20px;
+      margin: 0px;
+      line-height: 18px; }
+    body footer .footer-springer-logo figure {
+      display: none;
+      margin: 0px; }
+      body footer .footer-springer-logo figure img {
+        width: 111px;
+        height: 30px;
+        margin: 7px; }
+  @media only screen and (max-width: 1024px) {
+    body .body {
+      background-color: #ffffff; }
+    body .main-container {
+      margin: 0px; }
+    body .all-text-content {
+      padding: 0px; }
+    body header {
+      border-top: 0px solid #CCCCCC; }
+    body .hamburger {
+      visibility: visible; }
+    body .legal-button {
+      display: block !important;
+      visibility: visible !important; }
+    body .search
+    #header-signin-button {
+      display: none; }
+    body #right-logo {
+      display: none; }
+    body .nav-links {
+      display: none; }
+    body .all-text-content {
+      padding: 0; }
+    body .text-content-div {
+      display: flex;
+      flex-direction: column; }
+    body input[type="text"] {
+      max-width: 181px; }
+    body textarea {
+      max-width: 179px; }
+    body .footer-links {
+      display: none; }
+    body .adis-international {
+      display: none; }
+    body .footer-springer-logo {
+      visibility: hidden; } }
+  @media only screen and (max-width: 810px) {
+    body .search-field {
+      margin: 0px 20px; }
+    body .main-container .all-text-content {
+      padding: 0px;
+      margin: 0px; }
+    body .parent {
+      flex-direction: column;
+      padding-left: 10%;
+      margin-right: 10%; }
+    body .child1 {
+      width: 90%; }
+    body .child2 {
+      width: 98%;
+      margin: 0px 0px 0px 0px; }
+    body .legal-button {
+      display: flex; }
+    body .twitter-div {
+      margin-left: 10%; }
+    body .footer-links {
+      display: none; } }
+  @media only screen and (max-width: 320px) {
+    body .twitter-div {
+      width: 80%; } }
+  @media only screen and (max-width: 700px) {
+    body .search-field {
+      display: none; }
+    body .text-container {
+      display: flex; }
+    body .twitter-div {
+      width: 200px; }
+    body .legal-button {
+      display: flex; }
+    body .footer-links {
+      display: none; } }
+
+/*# sourceMappingURL=style.css.map */

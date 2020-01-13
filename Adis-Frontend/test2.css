@@ -1,0 +1,50 @@
+.search-field{
+font: 10px "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 1.3rem;
+color: #333;
+background-color: #fff;
+border: 1px solid #bcbcbc;
+border-radius: 2px;
+box-shadow: inset 2px 2px 5px rgba(0,0,0,0.11);
+padding: 0;
+width: 100%;
+box-sizing: border-box;
+position: relative;
+padding-left: 150px;
+height: 36px;
+margin-left: 60px;
+padding-right: 90px;
+}
+.search-filter-wrapper{
+font: 10px "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 1.3rem;
+color: #333;
+margin: 0;
+position: static;
+}
+
+.selectBox search-filter select-dropdown selectBox-dropdown{
+font: 10px "Helvetica Neue",Helvetica,Arial,sans-serif;
+border-radius: 0;
+text-shadow: 1px 1px 1px #fff;
+-webkit-appearance: none;
+background: #e5e5e5 url(https://push-content.springernature.io/pcf_sb_3_1510215833435951059/assets/images/grdnt_grey_f8f8f8_e5e5e5.gif) repeat-x;
+background-image: linear-gradient(to top, #f8f8f8, #e5e5e5);
+font-size: 1.4rem;
+box-sizing: border-box;
+border: 1px solid #bcbcbc;
+text-decoration: none;
+text-align: left;
+color: #666;
+outline: none;
+vertical-align: middle;
+cursor: pointer;
+line-height: normal;
+top: -1px;
+position: absolute;
+left: -1px;
+padding: 9px 15px 9px 10px;
+width: 150px;
+height: 36px;
+display: inline-block;
+}

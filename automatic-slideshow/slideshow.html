@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <style>
+            .container{
+                border: 1px solid;
+                position: relative;
+            }
+            img{
+               padding-left: 5%;
+                width: 90%;
+                height: 490px;
+            }
+            h2{
+                left: 40%;
+                position: absolute;
+                bottom: 50%;
+                
+                color: beige;
+
+            }
+
+        </style>
+    </head>
+    <body>   
+        <div class="container">
+                <img name="slide" >
+                <h2>
+                    Hiiiiii
+                </h2>
+               
+        </div>
+           
+            
+           
+       
+        <script>
+            var i=0;
+             var images=[];
+             var time=3000;
+            images[0]="hero-bg-01.jpg";
+            images[1]="hero-bg-02.jpg";
+            images[2]="hero-bg-03.jpg";
+
+             function imagechange()
+             {
+                 document.slide.src=images[i];
+
+                 if(i < images.length-1){
+                     i++;
+
+                 }
+                 else{
+                     i=0;
+                 }
+                 setTimeout("imagechange()",time);
+
+             }
+             window.onload=imagechange();
+        
+        </script>
+    </body>
+</html>

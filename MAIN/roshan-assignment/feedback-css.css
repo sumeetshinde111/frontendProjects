@@ -1,0 +1,112 @@
+h1{
+	width: 100%;
+	text-align: center;
+
+}
+
+.inputs{
+	align:justify;
+	width: 49.9%;
+	font-size: 15px;
+	padding: 3px;
+	display: inline-block;
+	border: 1px solid red;
+	height: 600px;
+	font-size: 20px;
+}
+
+.feedback-form{
+	font-size: 17.5px;
+	justify-content: center;
+	padding: 3px;
+	width: 49.4%;
+	float: right;
+	clear: both;
+	height: 608px;
+	box-sizing: border-box;
+	border:1px solid red;
+}
+
+p::selection{
+	color: red;
+	background-color: yellow;
+}
+
+.feedback-form__para1:hover{
+	border: 3px solid grey; 
+	margin:3px;
+	background-color: yellow;
+
+}
+
+.feedback-form__para2::first-line{
+	color: red;
+}
+
+ul li:first-child{
+background-color:yellow;
+}
+
+p i:first-child{
+	color:hotpink;
+}
+
+.inputs{
+	width: 15px;
+
+}
+input:checked{
+	margin-bottom: 20px;
+}
+
+.inputs{ 
+	width: 50%;
+
+}
+label{
+	margin-right: 2px;
+}
+
+
+.submit{
+	width: 130px;
+	margin-left: 40px;
+	font-size: 20px;
+}
+
+.submit:hover{
+	color: white;
+	background-color: black;
+}
+
+p::first-letter{
+	font-size: xx-large;
+	color:#E3A642;
+}
+
+p.feedback-form__para1::first-letter{
+	font-weight: bold;
+	color: #1630D4;
+}
+
+ a::link{
+ 	color: blue;
+	
+
+}
+
+a::visited{
+	color: green;
+}
+
+a::hover{
+	color:hotpink;
+}
+
+a::active{
+	color: white;
+}
+
+p i:first-child{
+	color:hotpink;
+}

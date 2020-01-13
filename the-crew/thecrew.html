@@ -1,0 +1,325 @@
+<html>
+    <head>
+<link rel="stylesheet" href="the-crew.css">
+
+<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<style>
+    .row-skilss{
+        display: flex;
+        padding-left: 55px;
+        /* flex-wrap: wrap; */
+        /* display: inline-block; */
+       
+    }
+    .barchart{
+        display: inline-block;
+        width: 45%;
+        margin-right: 20px;
+       
+       
+
+    }
+   
+    .progress_container{
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      color: #414A52;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font: inherit;
+      font-size: 100%;
+      vertical-align: baseline;
+      background-color: #414A52;
+      
+     
+    }
+  .progress_bar{
+      height:25px;
+      width: 0px;
+      
+      border-radius:3px;
+      height: 10px;
+      margin: 10px 0;
+      background:#7AE2DE;
+      }
+   .progress_container {
+    
+       margin-bottom: 30px;
+  }
+  </style>
+
+    </head>
+    <body>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+                .main{
+                    background: #F4F6F9;
+                    padding: 20px;
+                }
+                .wrapper{
+                    display: flex;
+                    width: 90%;
+                    margin: 0 auto;
+                }
+                 .container{
+                   
+                    position: relative;
+                    display: inline-block;
+                    margin-left: 30px;
+                }
+                img{
+                    width: 100%;
+                    height: 326px;
+                    margin: 0;
+                 } 
+    
+                 .middle{
+                    opacity: 0;
+                    text-align: center;
+                    position: absolute;
+                    height: 325px;;
+                    bottom: 0px; 
+                    transition: .5s ease; 
+                    
+                    width: 100%;  
+                
+                }
+                .container:hover img{
+                   
+                    opacity: 1;
+                    
+    
+    
+                }
+                .container:hover .middle{
+                    opacity: 0.6;
+                    background-color: #7AE2DE;
+                   
+    
+                }
+                .text{
+                   padding-top: 68px;
+                   color: #ffffff;
+                } 
+                h2{
+                        color: #000;
+                    }
+                h3{
+                    font-size: 15px;
+                    font-family: Raleway,Verdana,Arial,sans-serif;
+                    font-weight: 500;
+                   display: inline-block;
+                    border-bottom: 3px solid #7AE2DE;
+                    padding-bottom: 10px;
+                } 
+                     
+            </style>
+        </head>
+        <body>
+            <div class="main">
+                <h3>The Crew</h3>
+         <div class="wrapper">
+                <div class="container">
+                    <img src="crew-peter-finlan.jpg">
+                    <div class="middle">
+                        <div class="text">
+                            <h2>Peter Finlan</h2>
+                            <p>
+                                    8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="container">
+                        <img src="crew-blaz-robar.jpg">
+                        <div class="middle">
+                            <div class="text">
+                                <h2>Peter Finlan</h2>
+                                <p>
+                                        8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress
+                                </p>
+            
+                            </div>
+            
+                        </div>
+                 </div>
+                 <div class="container">
+                    <img src="crew-mary-lou.jpg">
+                    <div class="middle">
+                        <div class="text">
+                            <h2>Peter Finlan</h2>
+                            <p>
+                                    8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                 </div>
+    
+                <div class="container">
+                        <img src="crew-dude.jpg">
+                        <div class="middle">
+                            <div class="text">
+                                <h2>Peter Finlan</h2>
+                                <p>
+                                        8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress
+                                </p>
+            
+                            </div>
+            
+                        </div>
+                    </div>
+            </div>
+            <div class="master-crew">
+                    <!-- <div class="crew-container">
+                   <h3>The Crew</h3>
+                        <div class="figures">
+                                <img src="crew-peter-finlan.jpg">
+                                <div class="middle">
+                                    <div class="middle-text">
+                                            <h2> Peter Finlan</h2>
+                                            <p>
+                                                8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress
+                                            </p>
+                                    </div>
+                                 </div>
+                                <img src="crew-blaz-robar.jpg">
+                                <img src="crew-mary-lou.jpg">
+                                <img src="crew-dude.jpg">
+                        </div>
+                        
+        
+                         
+                           
+        
+                        </div> -->
+                   <div class="row-skills">
+                            <div class="barchart">
+                                <h5>Experience Design</h5>
+                                <div class="bar-wrapper">
+                                        <div class="progress_container">
+                                                <div class="progress_bar" title="90%">
+                                      
+                                                </div>
+                                         </div> 
+                                </div>
+                            </div>
+                        
+                            <div class="barchart">
+                                    <h5>Experience Design</h5>
+                                    <div class="bar-wrapper">
+                                            <div class="progress_container">
+                                                    <div class="progress_bar" title="90%">
+                                          
+                                                    </div>
+                                             </div> 
+                                    </div>
+                                </div>
+                           
+        
+                                <div class="barchart">
+                                        <h5>Experience Design</h5>
+                                        <div class="bar-wrapper">
+                                                <div class="progress_container">
+                                                        <div class="progress_bar" title="90%">
+                                              
+                                                        </div>
+                                                 </div> 
+                                        </div>
+                                  </div>
+        
+                                  <div class="barchart">
+                                        <h5>Experience Design</h5>
+                                        <div class="bar-wrapper">
+                                                <div class="progress_container">
+                                                        <div class="progress_bar" title="90%">
+                                              
+                                                        </div>
+                                                 </div> 
+                                        </div>
+                                    </div>
+                            
+                         </div>
+               </div>
+        </div>
+    
+    
+       
+
+       <div class="master-achievements">
+           <div class="content-wrapper">
+               <div class="awards">
+                    <span>
+                            <img src="iconcup2.png" alt="cup icon"> 
+                    </span>
+                        <div class="awards-container"> 
+                         <p class="stat-number-cup">
+                             24
+                         </p>
+                             
+                         <p class="text">
+                                AWARDS WON
+                         </p>
+                        </div>  
+               </div>
+
+
+               <div class="awards">
+                    <span>
+                            <img src="book.png" alt="cup icon"> 
+                    </span>
+                        <div class="awards-container"> 
+                         <p class="stat-number-book">
+                             341
+                         </p>
+                             
+                         <p class="text">
+                                ARTICLES
+                         </p>
+                        </div>
+               </div>
+
+               <div class="awards">
+                    <span>
+                            <img src="pen.png" alt="cup icon"> 
+                    </span>
+                        <div class="awards-container"> 
+                         <p class="stat-number-pen">
+                             43
+                         </p>
+                             
+                         <p class="text">
+                                FREEBIES
+                         </p>
+                        </div>
+               </div>         
+           </div>
+       </div>
+      
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+            
+       <script type="text/javascript">
+       $(".stat-number-cup").counterUp({delay:10, time:2000});
+       $(".stat-number-book").counterUp({delay:10, time:2000});
+       $(".stat-number-pen").counterUp({delay:10, time:2000}); 
+       </script>
+
+        <script>
+            $("document").ready(function (){
+                $('.progress_bar').each(function() {
+                    var percent = $(this).attr('title');
+                $(this).animate({width: percent},10000);
+                });
+            });
+        </script>
+    </body>
+</html>

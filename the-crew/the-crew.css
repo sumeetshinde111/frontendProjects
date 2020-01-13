@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Calibri, 'Trebuchet MS', sans-serif; }
+
+.ui-widget-header {
+  background: #cedc98;
+  border: 1px solid #DDDDDD;
+  color: #333333;
+  font-weight: bold; }
+
+h3 {
+  font-size: 15px;
+  font-family: Raleway,Verdana,Arial,sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  border-bottom: 3px solid #7AE2DE;
+  padding-bottom: 10px; }
+
+.master-crew {
+  width: 90%;
+  margin: 0 auto;
+  background: #F4F6F9; }
+
+.crew-container {
+  width: 90%;
+  margin: 0 auto; }
+
+.figures {
+  display: flex;
+  margin: 10px; }
+
+img {
+  height: 300px;
+  width: 22%;
+  margin: 0 16px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+  img .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; }
+
+.bar {
+  display: flex;
+  flex-wrap: wrap; }
+
+.master-achievements {
+  padding-top: 175px;
+  color: #F4F6F9;
+  height: 180px;
+  background-size: 100% 405px;
+  background-image: url("stats-bg.jpg");
+  background-repeat: no-repeat; }
+  .master-achievements .content-wrapper {
+    display: inline-block;
+    padding-left: 161px;
+    display: flex; }
+    .master-achievements .content-wrapper .awards {
+      margin-right: 20px;
+      width: 27%;
+      padding-right: 30px;
+      border-right: solid 1px rgba(255, 255, 255, 0.25); }
+    .master-achievements .content-wrapper .awards-container {
+      margin-left: 59px;
+      display: inline-block; }
+      .master-achievements .content-wrapper .awards-container .stat-number-cup, .master-achievements .content-wrapper .awards-container .stat-number-book, .master-achievements .content-wrapper .awards-container .stat-number-pen {
+        font-size: 50px;
+        margin: 0px; }
+      .master-achievements .content-wrapper .awards-container .text {
+        font-size: 20px; }
+    .master-achievements .content-wrapper span img {
+      margin: 0;
+      width: 31%;
+      height: 97px;
+      opacity: 1; }
+
+/*# sourceMappingURL=the-crew.css.map */

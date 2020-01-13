@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Contactform.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        
+    </head>
+    <body onload="sendMail()">
+        <div class="wrapper">
+            <div id="error_message"></div>
+            <h2>Contact us  </h2>
+            <form id="myform" >
+               <div class="input-fields" > <input type="text" name="message" placeholder="Message Subject" id="msg"></div>
+               <div class="input-fields"><input type="text" name="email" placeholder="Your email address" id="mail"></div>
+                <div class="btn">  <input type="submit"  value="Send Message" id="sub"   /></div>
+             </form>
+      </div>
+
+        <script>
+           
+       function validation()
+       {
+        var message=document.getElementById('msg').value;
+        var email=document.getElementById('mail').value;
+        var error_message=document.getElementById('error_message');
+        var text;
+
+            error_message.style.padding = "20px";
+            if(message.length==0 || message==null)
+            {
+                text="Empty message";
+                error_message.innerHTML = text;
+                return false;
+            }
+            if (email.indexOf("@")== -1 ||email.length <6)
+            {
+               text="invalid email";
+               error_message.innerHTML=text;
+               return false;
+            }
+        //    alert("form submitted");      
+           
+       }
+
+
+    function sendMail() {
+        var result = "";
+        console.log('loading');
+
+        var oMail = new EASendMail.SmtpMail("TryIt");
+        var oSmtp = new EASendMail.SmtpClient();
+
+        // Set sender email address, please change it to yours 
+        oMail.from = new EASendMail.MailAddress("shindesumeet69@gmail.com");
+
+        // Add recipient email address, please change it to yours
+        oMail.to.add(new EASendMail.MailAddress("shindesumeet59@gmail.com"));
+
+        // Set email subject
+        oMail.subject = "test email from local project";
+
+        // Set email body
+        oMail.textBody = "this is a test email sent from Sumeet Shinde, do not reply";
+
+        // Your SMTP server address
+        var oServer = new EASendMail.SmtpServer("smtp.gmail.com");
+
+        // User and password for ESMTP authentication            
+        oServer.user = "shindesumeet69@gmail.com";
+        oServer.password = "8975455257ss";
+
+        // Enable SSL/TLS Connection
+        oServer.connectType = EASendMail.SmtpConnectType.connectSSLAuto;
+
+        // If your SMTP server requires SSL connection on 465 port, please add this line
+        // oServer.port = 465;
+
+        oSmtp.sendMailAsync(oServer, oMail).then(function (e) {
+            result = "Email was sent successfully!";
+
+            // Display Result by Diaglog box
+            (new Windows.UI.Popups.MessageDialog(result, "Success")).showAsync();
+        },
+
+        function (e) {
+            // because javascript exception only gives the stack trace messages, but it is not
+            // real description of exception, so we give a property lastErrorMessage for javascript.
+            if (oSmtp.lastErrorMessage != "") {
+                result = oSmtp.lastErrorMessage;
+            }
+            else {
+                result = e.message;
+            }
+            oSmtp.close();
+
+            // Display Result by Diaglog box
+            (new Windows.UI.Popups.MessageDialog(result, "Error Information")).showAsync();
+        });
+    }
+
+
+        
+    </script>
+    </body>
+</html> 

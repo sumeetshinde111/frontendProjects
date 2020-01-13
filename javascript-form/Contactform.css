@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+   font-family: 'Ibarra Real Nova', serif;
+    
+}
+
+body{
+    background-color:#Fece0c ;
+}
+.wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 2px rgb(254, 236, 164,1);
+}
+
+.wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332002 ;
+}
+
+.wrapper .input-fields{
+    margin-bottom: 10px;
+}
+
+.wrapper input[type='text']{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+}
+
+.wrapper  .btn input[type='submit']{
+    border: 0;
+    margin-top: 15px;
+    margin-left: 55px;
+    padding: 10px;
+    width: 176px;
+    background: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.wrapper #error_message{
+    margin-bottom: 20px;
+    padding: 0px;
+    background: #fe8b8e;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    font-weight: bold;
+    font-size: larger;
+
+}

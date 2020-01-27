@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+            .hamburger{
+                
+
+            }
+            .menubtn{   
+                width: 20px;
+                height: 20px;
+                background-color:red ;
+            }
+                .menuitems{
+                    display: none;
+
+                }
+        </style>
+    </head>
+    <body>
+        <div class="hamburger">
+            <button type="button" class="menubtn"></button>
+            <div class="menuitems">
+                <ul>
+                    <li>a</li>
+                    <li>b</li>
+                    <li>c</li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            document.getElementById("menubtn").addEventListener("click",display);
+            function display{
+                var x = document.getElementById("menuitems");
+                if(x.style.display==none)
+                x.style.display==block;
+            }
+        </script>
+    </body>
+</html>

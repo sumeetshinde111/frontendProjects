@@ -1,0 +1,517 @@
+<html>
+<head>
+    <!-- -------------------------------------------------------- -->
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <!-- --------------------------------------------------------- -->
+    <title>Synthetica</title>
+    <link rel="stylesheet" href="synthetica-style.css">
+   <!-- ----------------------------------Roundup-------------------------------------------------------------- -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+        <script type="text/javascript">
+            $(".stat-number-cup").counterUp({delay:10, time:2000});
+            $(".stat-number-book").counterUp({delay:10, time:2000});
+            $(".stat-number-pen").counterUp({delay:10, time:2000});
+            
+         </script>
+  <!----------------------------------RoundUp end----------------------------------------------------------------!--  -->
+
+            <!-- // -------------------------scroll-------------------------------------------- -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script>
+            $(document).ready(function(){
+     // Add smooth scrolling to all links
+     $("a").on('click', function(event) {
+   
+       // Make sure this.hash has a value before overriding default behavior
+       if (this.hash !== "") {
+         // Prevent default anchor click behavior
+         event.preventDefault();
+   
+         // Store hash
+         var hash = this.hash;
+   
+         // Using jQuery's animate() method to add smooth page scroll
+         // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+         $('html, body').animate({
+           scrollTop: $(hash).offset().top
+         }, 2000, function(){
+      
+           // Add hash (#) to URL when done scrolling (default click behavior)
+           window.location.hash = hash;
+         });
+       } // End if
+     });
+   });
+            </script>
+        <!-- ---------------------------------Scroll End------------------------------------------------------ -->
+          
+
+            
+    <style>
+    </style>
+        
+
+
+</head>
+<body>
+   <!-- ------------------------------------------------------------------------------ -->
+   <!-- <Label>Change Theme</Label>
+   <select>
+       <option value="">"Make Choice"</option>
+       <option value="red">Red</option>
+       <option value="black">Black</option>
+       <option value="yellow">Yellow</option>
+       <option value="grey">Grey</option>
+   </select>
+   
+
+   <script>
+       let select=document.querySelector("select");
+       let html=document.querySelector("html");
+
+       function update(bgcolor,textcolor){
+           html.style.backgroundColor=bgcolor;
+           html.style.color=textcolor;
+           html.style.fontFamily=Arial;
+       }
+       function change(){
+           let choice=select.value;
+           switch(choice){
+               case "red":
+                   update("red","white");
+                   break;
+               case "black":
+                   update("black","white");
+                   break;
+               case "yellow":
+                   update ("yellow","black");
+                   break;
+               case "grey":
+                   update("lightgrey","black");
+                   break;
+               
+
+           }
+       }
+       select.addEventListener("change",change);
+
+   </script> -->
+
+   <!-- -------------------------------------------------------------------------------- -->
+        <header>
+            <div class="synthetica-logo">
+                <img src="logo.png" alt="synthetica-logo">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href= "#collective-div" id="a">The Collective</a>
+                    </li>
+                    <li>
+                        <a href="#the-crew">The Crew</a>
+                    </li>
+                    <li>
+                        <a href="">Articles</a>
+                    </li>
+                    <li>
+                        <a href="#achievements">Freebies</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Subscribe</a>
+                    </li>
+                    <li>
+                        <a href="#" class="search-icon"><img src="magnify1.png"/></a>
+                    </li>
+                </ul>
+            </div> 
+            <div class="hamburger">
+              <div class="menubackground">
+
+             
+              <button  id="menubtn">
+                <div></div>
+                <div></div>
+                <div></div>
+              </button>
+            </div>
+              <div class="menuitems">
+                <ul>
+                  <li>The Collective</li>
+                  <li>Crew</li>
+                  <li>Articles</li>
+                  <li>Freebies</li>
+              </ul>
+             </div>
+
+            </div>
+            
+           
+        </header>
+
+        <div class="slidershow-container" style=position:relative >
+            <div class="myslides fade">
+                    <img src="hero-bg-01.jpg" style="width:100%">
+                    <div class="text">
+                      <h2>
+                        Introducing, Synthetica. A blissful HTML5/CSS3 Template, free forever.
+                      </h2>
+                      <button type="button" id="learnmore-btn" >Learn More</button>
+                      <hr>
+                      <p>
+                        Create your landing page in minutes with Synthetica's Sketch style guide.
+                      </p>
+                    </div>
+            </div>
+             <div class="myslides fade">
+                        <img src="hero-bg-02.jpg" style="width:100%">
+                        <div class="text">
+                          <h2>
+                            Get a head start, with the Synthetica Sketch file.
+                          </h2>
+                          <button type="button" id="learnmore-btn">Download Sketch File</button>
+                          <hr>
+                          <p>
+                            Create your landing page in minutes with Synthetica's Sketch style guide.
+                          </p>
+                        </div>
+             </div>
+             <div class="myslides fade">
+                        <img src="hero-bg-03.jpg" style="width:100%">
+                        <div class="text">
+                          <h2>
+                            Download Synthetica today, it's free forever.
+                          </h2>
+                          <button type="button" id="learnmore-btn">Download Template</button>
+                          <hr>
+                          <p>
+                            Create your landing page in minutes with Synthetica's Sketch style guide.
+                          </p>
+                        </div>
+             </div>
+             <div  class="three-dots">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+               <span class="dot" onclick="currentSlide(2)"></span> 
+               <span class="dot" onclick="currentSlide(3)"></span>
+  
+          </div>
+        </div>
+        
+        <section class="collective" id="collective-div">
+          <h3>The collective</h3>
+          <p>
+              8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress, banjo normcore trust fund hella. Kinfolk
+              gluten-free lo-fi quinoa. Pabst kitsch ennui hoodie meggings banjo. Schlitz tacos kitsch godard before they sold out. Kale
+              chips chillwave kickstarter photo booth cronut cold-pressed. Banjo fixie umami kombucha affogato gluten-free authentic
+              slow-carb hashtag, hammock pour-over chambray viral VHS normcore.
+          </p>
+         <img src="Screen.png" alt="screen"> 
+          <p> 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress, banjo normcore trust fund hella. Kinfolk
+              gluten-free lo-fi quinoa.
+              Pabst kitsch ennui hoodie meggings banjo. Schlitz tacos kitsch godard before they sold out. Kale chips chillwave
+              kickstarter photo booth cronut cold-pressed. Banjo fixie umami kombucha affogato gluten-free authentic slow-carb
+              hashtag, hammock pour-over chambray viral VHS normcore.
+          </p>
+        </section>
+
+      <!-- ---------------------------------------------------------- -->
+      
+      <div class="main" id="the-crew">
+        <h3>The Crew</h3>
+ <div class="wrapper">
+        <div class="container">
+            <img src="crew-peter-finlan.jpg">
+            <div class="middle">
+                <div class="textz">
+                    <h2>Peter Finlan</h2>
+                    <p>
+                            8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+                <img src="crew-blaz-robar.jpg">
+                <div class="middle">
+                    <div class="textz">
+                        <h2>Blaz Robar</h2>
+                        <p>
+                                8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress
+                        </p>
+    
+                    </div>
+    
+                </div>
+         </div>
+         <div class="container">
+            <img src="crew-mary-lou.jpg">
+            <div class="middle">
+                <div class="textz">
+                    <h2>Mary Lou</h2>
+                    <p>
+                            8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress
+                    </p>
+
+                </div>
+
+            </div>
+         </div>
+
+        <div class="container">
+                <img src="crew-dude.jpg">
+                <div class="middle">
+                    <div class="textz">
+                        <h2>Kobe West</h2>
+                        <p>
+                                8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress
+                        </p>
+    
+                    </div>
+    
+                </div>
+            </div>
+    </div>
+    <div class="master-crew">
+        
+           <div class="row-skills">
+                    <div class="barchart">
+                        <h5>Experience Design</h5>
+                        <div class="bar-wrapper">
+                                <div class="progress_container">
+                                        <div class="progress_bar" title="90%">
+                              
+                                        </div>
+                                 </div> 
+                        </div>
+                    </div>
+                
+                    <div class="barchart">
+                            <h5>Experience Design</h5>
+                            <div class="bar-wrapper">
+                                    <div class="progress_container">
+                                            <div class="progress_bar" title="90%">
+                                  
+                                            </div>
+                                     </div> 
+                            </div>
+                        </div>
+                   
+
+                        <div class="barchart">
+                                <h5>Experience Design</h5>
+                                <div class="bar-wrapper">
+                                        <div class="progress_container">
+                                                <div class="progress_bar" title="90%">
+                                      
+                                                </div>
+                                         </div> 
+                                </div>
+                          </div>
+
+                          <div class="barchart">
+                                <h5>Experience Design</h5>
+                                <div class="bar-wrapper">
+                                        <div class="progress_container">
+                                                <div class="progress_bar" title="90%">
+                                      
+                                                </div>
+                                         </div> 
+                                </div>
+                            </div>
+                    
+                 </div>
+       </div>
+      </div>
+
+      <div class="master-achievements" id="achievements">
+          <div class="content-wrapper">
+              <div class="awards" id="first-awards">
+                   <span>
+                           <img src="iconcup.png" alt="cup icon"> 
+                   </span>
+                       <div class="awards-container"> 
+                        <p class="stat-number-cup">
+                            24
+                        </p>
+                            
+                        <p class="texts">
+                               AWARDS WON
+                        </p>
+                       </div>  
+              </div>
+
+
+              <div class="awards" id="middle-awards">
+                   <span>
+                           <img src="book.png" alt="cup icon"> 
+                   </span>
+                       <div class="awards-container"> 
+                        <p class="stat-number-book">
+                            341
+                        </p>
+                            
+                        <p class="texts">
+                               ARTICLES
+                        </p>
+                       </div>
+              </div>
+
+              <div class="awards">
+                   <span>
+                           <img src="pen.png" alt="cup icon"> 
+                   </span>
+                       <div class="awards-container"> 
+                        <p class="stat-number-pen">
+                            43
+                        </p>
+                            
+                        <p class="texts">
+                               FREEBIES
+                        </p>
+                       </div>
+              </div>         
+          </div>
+      </div>
+                        
+        
+        
+
+               
+        
+         
+    <!-- </div> -->
+           
+       
+
+
+
+
+
+
+
+
+
+      <!-- ----------------------------------hamburger ---------------------------->
+      <script>
+        document.getElementById("menubtn").addEventListener('click',showmenuitems);
+
+        function showmenuitems(){
+            var   x=document.getElementsByClassName("menuitems")[0];
+            
+            if(x.style.visibility!="hidden")
+            {   
+            x.style.visibility="hidden";
+            }
+            else{
+            x.style.visibility="visible";
+            }
+        }
+      </script>
+  <!-- ---------------------------------------------------- -->
+<script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3000); // Change image every 2 seconds
+      }
+
+      function currentSlide(n) {
+          showSlide(slideIndex = n);
+      }
+      function showSlide(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              // slideIndex
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+      }
+      </script> 
+
+ <!-- <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              // slideIndex
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); 
+            }
+       </script>   -->
+
+          <!--------------------------- Roundup script------------------------------------- -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+     
+         <script type="text/javascript">
+         $(".stat-number-cup").counterUp({delay:10, time:2000});
+         $(".stat-number-book").counterUp({delay:10, time:2000});
+         $(".stat-number-pen").counterUp({delay:10, time:2000}); 
+         </script>
+       <!------------------------------------------------------------------------------------>
+            
+            
+             <!-- ----------------Progress Bar Script--------------------------------------------->
+      <script>
+          $("document").ready(function (){
+              $('.progress_bar').each(function() {
+                  var percent = $(this).attr('title');
+              $(this).animate({width: percent},10000);
+              });
+          });
+      </script>
+      <!-- ------------------------------------------------------------------------------ -->
+  
+</body>
+</html>

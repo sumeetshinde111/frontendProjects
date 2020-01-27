@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: poppins;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background: #262626; }
+
+h2 {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 10vw; }
+
+h2 span {
+  animation: animate 3000s infinite both;
+  animation-delay: calc((var(--char-index)+1) *400ms);
+  text-transform: uppercase;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de; }
+
+@keyframes animate {
+  0% {
+    font-size: 3vw; }
+  60% {
+    font-size: 5vw; }
+  100% {
+    font-size: 3vw; } }
+
+/*# sourceMappingURL=animate-text.css.map */
